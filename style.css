@@ -1,3 +1,79 @@
-h1{
-    color:aqua;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Fira Sans", serif;
+    margin: 0;
+    padding: 0;
+    
 }
+/* Navbar starts here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    position: static;
+    width: 222px;
+    height: 38px;
+    gap: 10;
+    padding: 24px 160px 24px 160px;
+}
+.nav-btn{
+    color:#006A50;
+}
+
+/* Navbar ends here */
+
+/* FirstOne starts here */
+.firstOne{
+    width: 1280px;
+    height: 560px;
+    background-color: rgb(198, 228, 214);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 115px;
+
+}
+.firstOne-title{
+    gap: 16;
+padding: 0px;
+margin: 16px 0px;
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.firstOne-para{
+    width: 622px;
+height: 201px;
+gap: 16;
+padding: 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.btn-cmn{
+    width: 270px;
+    height: 56px;
+    gap: 48;
+padding: 17px 34px 17px 34px;
+margin: 24px 0px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+
+}
+/* FirstOne ends here */
+
+
