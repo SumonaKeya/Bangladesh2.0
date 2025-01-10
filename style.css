@@ -88,7 +88,6 @@ background: rgb(0, 106, 80);
     text-align: center;
     width: 302px;
     height: 244px;
-
 }
 .title-cmn{
    margin-top:80px;
@@ -154,8 +153,49 @@ margin-bottom: 20px;
 
 /* Vision starts here  */
 
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+
+}
+  
 
 
+.vision{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+  
+}
+.vision-btn{
+   
+    width: 122px;
+    height: 41px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+ 
+    border-radius: 8px;
+   
+    
+
+}
 
 
 /* Vision ends here  */
