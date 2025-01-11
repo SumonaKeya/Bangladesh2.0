@@ -12,6 +12,8 @@
 
 section{
   gap:80px;
+  margin-left:150px;
+  margin-right:200px;
 
 }
 /* Navbar starts here */
@@ -213,7 +215,7 @@ margin-bottom: 20px;
 
 /* Vision ends here  */
 
-
+/* Quote starts */
 .quote-img{
 
     width: 27.43px;
@@ -275,4 +277,116 @@ margin-left: 20px;
 .special-para{
     align-items: center;
 }
+/* Quote starts */
 
+
+/* Recent News section starts */
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:180px ;
+    margin-top: 80px;
+    gap: 38px;
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+   margin-right: 120px;
+   margin-left: -100px;
+   margin-top: -90px;
+   
+}
+.main-news{
+    width: 1280px;
+    height: 402px;
+    border-radius: 24px;
+background: rgb(255, 255, 255);
+margin-left: -100px;;
+margin-right:100px ;
+}
+.news-title{
+    width: 744px;
+    height: 38px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.news-logo{
+    width: 134px;
+    height: 40px;
+    background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
+}
+.news-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.date{
+    width: 122px;
+    height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left:-515px;
+margin-right: 5px;
+}
+.time{
+    width: 105px;
+height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;  
+}
+.news-para{
+    width: 744px;
+    height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 30px;
+}
+.news-btn{
+   
+    width: 139px;
+    height: 48px;
+
+    margin-top: 100px;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+margin: 0px 48px;
+color: rgb(255, 255, 255);
+margin-left:-4px;
+margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+/* Recent News section finish */
