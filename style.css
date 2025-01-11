@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
+
+
 *{
     font-family: "Fira Sans", serif;
     margin: 0;
@@ -9,6 +12,7 @@
 
 section{
   gap:80px;
+
 }
 /* Navbar starts here */
 .navbar{
@@ -111,7 +115,7 @@ background: rgb(0, 106, 80);
 
     display: flex;
     flex-direction: column;
-    justify-content: ce;
+    justify-content: center;
     align-items: center;
 } 
 .pillar-head{
@@ -153,16 +157,7 @@ margin-bottom: 20px;
 
 /* Vision starts here  */
 
-.container{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    text-align: center;
-    width: 410.67px;
-    height: 325px;
-    gap: 24;
 
-}
   
 
 
@@ -170,9 +165,27 @@ margin-bottom: 20px;
     padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
-    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
-}
+} 
+.container { display: flex; 
+    flex-direction: row;
+     justify-content:space-around; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      
+      width: 410.67px;
+      height: 325px;
+      width: 100%;
+        /* Adjust width to fit the container */ 
+        gap: 24px; 
+    }
+
+
+
 .vision-btn{
    
     width: 122px;
@@ -186,7 +199,7 @@ margin-bottom: 20px;
     padding: 11px 20px 11px 20px;
     
     /* Inside Auto Layout */
-    flex: none;
+   
     order: 2;
     flex-grow: 0;
     margin: 24px 0px;
@@ -199,3 +212,67 @@ margin-bottom: 20px;
 
 
 /* Vision ends here  */
+
+
+.quote-img{
+
+    width: 27.43px;
+    height: 54.86px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right:30px;
+    margin-bottom: 0px;
+
+}
+
+.quote-para{
+   
+    width: 1232px;
+    height: 96px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: -40px;
+margin-left:20px ;
+margin-bottom: 0px;
+}
+.quote-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+padding: 0px;
+margin-top: -30px;
+margin-left: 20px;
+
+}
+.quote-head{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 4px 0px;
+    margin-left: 20px;
+}
+.special-para{
+    align-items: center;
+}
+
