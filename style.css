@@ -8,8 +8,13 @@
     font-family: "Fira Sans", serif;
     margin: 0;
     padding: 0;
-    background: rgb(240, 240, 240);
+    background: #faeeee;
+
 }
+body {
+    overflow-x: hidden;
+  }
+  
 
 section{
   gap:80px;
@@ -32,20 +37,43 @@ section{
 }
 .nav-btn{
     color:#006A50;
+    margin-right:160px ;
+   border-width: 116px;
+   border-width: 52px;
+  border:none;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+gap: 48;
+color:rgb(0, 106, 80);
+padding: 15px 30px 15px 30px;
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+font-weight: bold;
 }
+button {
+    border: none;
+  }
+  
 
 /* Navbar ends here */
 
 /* FirstOne starts here */
 .firstOne{
-    width: 1280px;
-    height: 560px;
+    /* width: 1280px;
+    height: 560px; */
+    width: 1200px;
+    height: 500px; 
     background-color: rgb(198, 228, 214);
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     text-align: center;
-    margin-left: 115px;
+    margin-left: 150px;
+    margin-right: 0px;
 }
 .firstOne-title{
     gap: 16;
@@ -90,22 +118,25 @@ background: rgb(0, 106, 80);
 
 .pillars-container{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     text-align: center;
-    width: 302px;
-    height: 244px;
+    width: 850px;
+    height: 240px; 
+    background: #faeeee;
+    margin-right:200px;
+    margin-left: 220px;
 }
 .title-cmn{
    margin-top:80px;
    margin-bottom: 32px;;
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: center;
+    text-align:start;
 }
  .pillar{
     box-sizing: border-box;
@@ -113,13 +144,13 @@ background: rgb(0, 106, 80);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     margin: 0px 24px;
-    gap: 24;
+    gap:0;
     padding: 24px;   
+    width: 280px;
+    height: 250px; 
+    margin-left: 70px;
+    margin-right: -5px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 } 
 .pillar-head{
     width: 254px;
@@ -128,21 +159,21 @@ gap: 12;
 padding: 0px;
 color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
-font-size: 20px;
+font-size: 18px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 }
 .pillar-para{
-    width: 254px;
-height: 72px;
+    width: 248px;
+height: 68px;
 gap: 12;
-padding: 0px;
+padding: 0;
 margin: 12px 0px;
 color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
@@ -210,11 +241,10 @@ margin-bottom: 20px;
     flex-grow: 0;
     margin: 24px 0px;
  
-    border-radius: 8px;
-   
-    
+    border-radius: 8px;  
 
 }
+
 
 
 /* Vision ends here  */
@@ -281,10 +311,74 @@ margin-left: 20px;
 .special-para{
     align-items: center;
 }
-/* Quote starts */
+/* Quote ends */
+
+/* Opinion section starts */
+.tab{
+    margin-top:80px;
+    margin-bottom: 80px;
+   
+
+}
+ .tab-head{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+padding:10px 10px;
+}
+.tab-left{
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+}
+.tab-right{
+    display: flex;
+    margin-right: 50px;
+    width: 190px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+padding: 20px;
+}
+.tab-icon{
+    display: flex;
+    align-items: center;
+    background-color:rgb(198, 228, 214);
+  
+}
+.tab-row{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+padding: 20px 20px;
+}
+.tab-full{
+   background: rgb(255, 255, 255); 
+}
+
+/* Opinion section ends */
 
 
 /* Recent News section starts */
+.news-main{
+    background: rgb(255, 255, 255); 
+
+}
+.news-container{
+    background: rgb(255, 255, 255); 
+}
+
 .news{
     display: flex;
     justify-content: space-between;
@@ -292,6 +386,8 @@ margin-left: 20px;
     margin-left:180px ;
     margin-top: 80px;
     gap: 38px;
+     
+
 }
 .news-img{
     width: 408px;
@@ -306,7 +402,9 @@ margin-left: 20px;
     width: 1280px;
     height: 402px;
     border-radius: 24px;
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255); 
+
+/* background: rgb(255, 255, 255); */
 margin-left: -100px;;
 margin-right:100px ;
 }
@@ -333,6 +431,8 @@ text-align: left;
     align-items: center;
     text-align: center;
     margin-top: 10px;
+    background: rgb(255, 255, 255); 
+
 }
 
 .date{
@@ -347,6 +447,8 @@ letter-spacing: 0%;
 text-align: left;
 margin-left:-515px;
 margin-right: 5px;
+background: rgb(255, 255, 255); 
+
 }
 .time{
     width: 105px;
@@ -473,7 +575,7 @@ margin-left: 550px;
 
 /* Newsletter section starts */
 
-.footersec{
+.footer-sec{
     border-radius: 24px;
     background: rgb(198, 228, 214);
     margin-top: 80px;
@@ -500,7 +602,9 @@ font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
 text-align: center;
-background: rgb(198, 228, 214);}
+background: rgb(198, 228, 214);
+margin-left:300px;
+}
 .footer-para{
     width: 622px;
     height: 48px;
@@ -514,12 +618,17 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
 margin-bottom: 64px;
+margin-left:300px;
 }
 .email-txt-container{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: rgb(255, 255, 255);
+    width:300px;
+    height:50px;
+margin-left:600px;
 }
 
 .email-txt{
@@ -534,10 +643,9 @@ margin-right: 500px;
 }
 
 .email-txt-btn{
-    width: 100%;
-    height: 250px;
-    gap: 48;
-padding: 17px 34px 17px 34px;
+    /* width: 100%;
+    height: 250px; */
+   
 border-radius: 0px 8px 8px 0px;
 background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
@@ -551,8 +659,8 @@ width: 82px;
 height: 22px;
 gap: 48;
 padding: 17px 34px 17px 34px;
-margin-left: -60px;
-margin-right: 500px;
+margin-left: 200px;
+margin-right: 400px;
 }
 .last{
     margin-left: 300px;
